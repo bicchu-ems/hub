@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>お知らせ - 備中EMSサポートハブ</title>
   <style>
     body {
@@ -39,20 +39,15 @@
       text-decoration: none;
     }
 
-    .main {
-      max-width: 1000px;
+    main {
+      max-width: 800px;
       margin: 2em auto;
       padding: 1em;
     }
 
     h1 {
-      color: #005bac;
       text-align: center;
-    }
-
-    .news-list {
-      list-style: none;
-      padding: 0;
+      color: #005bac;
     }
 
     .news-item {
@@ -69,10 +64,8 @@
     }
 
     .news-item time {
-      display: block;
       font-size: 0.9em;
-      color: #777;
-      margin-bottom: 0.5em;
+      color: #666;
     }
 
     footer {
@@ -89,28 +82,31 @@
     <div class="logo">🚑 備中EMSサポートハブ</div>
     <nav>
       <ul>
-        <li><a href="index.html">トップ</a></li>
-        <li><a href="protocols.html">プロトコール</a></li>
-        <li><a href="training.html">研修資料</a></li>
-        <li><a href="news.html">お知らせ</a></li>
+        <li><a href="/hub/index.html">トップ</a></li>
+        <li><a href="/hub/protocol.html">プロトコール</a></li>
+        <li><a href="/hub/training.html">研修資料</a></li>
+        <li><a href="/hub/news.html">お知らせ</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="main">
+  <main>
     <h1>お知らせ</h1>
-    <ul class="news-list">
-      <li class="news-item">
-        <time datetime="2025-06-01">2025年6月1日</time>
-        <h2>夏季熱中症対応研修の開催について</h2>
-        <p>2025年7月10日に倉敷市消防本部で熱中症対応研修を行います。詳細は研修資料ページをご覧ください。</p>
-      </li>
-      <li class="news-item">
-        <time datetime="2025-05-20">2025年5月20日</time>
-        <h2>新プロトコール2025年版を公開しました</h2>
-        <p>2025年度対応の新しい救急プロトコールを追加しました。プロトコールページからご確認ください。</p>
-      </li>
-    </ul>
+    <div class="news-item">
+      <time>2025-06-01</time>
+      <h2>第1回 地域連携研修会のお知らせ</h2>
+      <p>指導救命士による地域連携をテーマにした研修会を開催します。</p>
+    </div>
+    <div class="news-item">
+      <time>2025-05-15</time>
+      <h2>プロトコールページ更新</h2>
+      <p>最新の対応基準・搬送ガイドラインを反映しました。</p>
+    </div>
+    <div class="news-item">
+      <time>2025-05-01</time>
+      <h2>備中EMSサポートハブ公開</h2>
+      <p>備中地域の救急活動を支援するための情報サイトがオープンしました。</p>
+    </div>
   </main>
 
   <footer>
