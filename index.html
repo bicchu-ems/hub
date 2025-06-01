@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>備中救急活動サポートハブ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Arial", sans-serif;
+      background-color: #f5f9fc;
+      color: #333;
+    }
+
+    header {
+      background-color: #005bac;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em 2em;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5em;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4em 1em;
+      background: linear-gradient(to right, #005bac, #007bce);
+      color: white;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2em;
+      padding: 2em;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5em;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .card h2 {
+      margin-top: 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.5em 1.2em;
+      background: #005bac;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #003e7e;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🚑 備中EMSサポートハブ</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">トップ</a></li>
+        <li><a href="protocols.html">プロトコール</a></li>
+        <li><a href="training.html">研修資料</a></li>
+        <li><a href="news.html">お知らせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>備中地域の救急活動を、次のステージへ</h1>
+    <p>指導救命士による、地域連携型の情報ハブ</p>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h2>プロトコール</h2>
+      <p>最新の対応基準・選定基準を共有します</p>
+      <a href="protocols.html" class="btn">見る</a>
+    </div>
+    <div class="card">
+      <h2>研修資料</h2>
+      <p>指導救命士が作成した教材・動画など</p>
+      <a href="training.html" class="btn">見る</a>
+    </div>
+    <div class="card">
+      <h2>お知らせ</h2>
+      <p>地域研修・重要連絡事項を随時更新</p>
+      <a href="news.html" class="btn">見る</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 備中指導救命士部会</p>
+  </footer>
+</body>
+</html>
