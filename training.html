@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>研修資料 - 備中EMSサポートハブ</title>
   <style>
     body {
@@ -39,27 +39,23 @@
       text-decoration: none;
     }
 
-    .main {
+    main {
       max-width: 1000px;
       margin: 2em auto;
       padding: 1em;
     }
 
-    h1, h2 {
-      color: #005bac;
+    h1 {
       text-align: center;
+      color: #005bac;
     }
 
-    .category {
-      margin-top: 2em;
-    }
-
-    .resource-list {
+    .material-list {
       list-style: none;
       padding: 0;
     }
 
-    .resource-item {
+    .material-item {
       background: white;
       border-radius: 8px;
       padding: 1em;
@@ -67,13 +63,14 @@
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
 
-    .resource-item h3 {
-      margin: 0 0 0.5em;
+    .material-item h2 {
+      margin-top: 0;
+      font-size: 1.1em;
     }
 
-    .resource-item a {
-      text-decoration: none;
+    .material-item a {
       color: #005bac;
+      text-decoration: none;
     }
 
     footer {
@@ -90,46 +87,30 @@
     <div class="logo">🚑 備中EMSサポートハブ</div>
     <nav>
       <ul>
-        <li><a href="index.html">トップ</a></li>
-        <li><a href="protocols.html">プロトコール</a></li>
-        <li><a href="training.html">研修資料</a></li>
-        <li><a href="news.html">お知らせ</a></li>
+        <li><a href="/hub/index.html">トップ</a></li>
+        <li><a href="/hub/protocol.html">プロトコール</a></li>
+        <li><a href="/hub/training.html">研修資料</a></li>
+        <li><a href="/hub/news.html">お知らせ</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="main">
+  <main>
     <h1>研修資料</h1>
-
-    <section class="category">
-      <h2>📑 ドキュメント</h2>
-      <ul class="resource-list">
-        <li class="resource-item">
-          <h3><a href="#">熱中症対応マニュアル（PDF）</a></h3>
-          <p>現場隊員向けの最新の熱中症初期対応資料です。</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="category">
-      <h2>🎥 動画</h2>
-      <ul class="resource-list">
-        <li class="resource-item">
-          <h3><a href="#">CPA時の蘇生手順（YouTube）</a></h3>
-          <p>シミュレーション動画で視覚的に学べる内容です。</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="category">
-      <h2>📊 スライド</h2>
-      <ul class="resource-list">
-        <li class="resource-item">
-          <h3><a href="#">トリアージ研修スライド（PPT）</a></h3>
-          <p>2025年度の地域研修会で使用されたスライド資料です。</p>
-        </li>
-      </ul>
-    </section>
+    <ul class="material-list">
+      <li class="material-item">
+        <h2><a href="#">熱中症対応研修資料</a></h2>
+        <p>熱中症の基礎知識と現場での対応についてまとめた資料です。</p>
+      </li>
+      <li class="material-item">
+        <h2><a href="#">CPA事例対応シミュレーション</a></h2>
+        <p>実際の症例をもとにした訓練用教材（PDF）。</p>
+      </li>
+      <li class="material-item">
+        <h2><a href="#">トリアージ実践ワーク</a></h2>
+        <p>災害現場を想定したトリアージ訓練スライド。</p>
+      </li>
+    </ul>
   </main>
 
   <footer>
